@@ -1,0 +1,23 @@
+{
+  "name": "genpark-agentic-commerce-credit-insurance-trade-receivable-default-risk-skill",
+  "version": "1.0.0",
+  "description": "B2B trade credit insurance debtor limit utilization, Altman Z-Score commercial bankruptcy sentinel.",
+  "category": "agentic_commerce",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_trade_credit_insurance_risk",
+      "description": "B2B trade credit insurance debtor limit utilization, Altman Z-Score commercial bankruptcy sentinel.",
+      "sample_input": {
+        "insured_credit_limit_usd": 250000.0,
+        "current_open_ar_usd": 210000.0,
+        "overdue_ar_usd": 48000.0,
+        "altman_z_score": 1.72,
+        "indemnification_ratio_pct": 90.0
+      }
+    }
+  ]
+}
